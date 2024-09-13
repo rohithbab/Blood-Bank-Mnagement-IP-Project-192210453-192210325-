@@ -1,0 +1,291 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+
+#Nav1 .nav-item i {
+  color: white;
+  font-size: 14px;
+}
+
+#Nav1 .navbar-nav li .selected {
+  color: red;
+}
+
+#Nav1 .navbar-brand i {
+  color: white;
+}
+
+#Nav1 .fa-twitter:hover {
+  color: #1489ed;
+}
+
+#Nav1 .fa-facebook-f:hover {
+  color: #3b24ea;
+}
+
+#Nav1 .fa-whatsapp:hover {
+  color: darkgreen;
+}
+
+#Nav1 .fa-instagram:hover {
+  color: red;
+}
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-whatsapp,
+.fa-instagram {
+  transition: color 0.5s;
+}
+
+/* #Nav1 .navbar-nav li:active{
+  color: red;
+} */
+
+/* Nav 1 End */
+/***************************/
+
+/***************************/
+/* Nav 2 Start */
+
+#Nav2 .navbar-nav li {
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#Nav2 .navbar-nav li .selected {
+  color: darkred;
+  border-bottom: 4px solid darkred;
+}
+
+#Nav2 .navbar-nav li a:hover {
+  border-bottom: 4px solid darkred;
+  color: darkred;
+}
+
+#Nav2 .signup {
+  color: darkred;
+  background: none;
+  font-size: 18px;
+}
+
+#Nav2 .signup:hover {
+  color: red;
+}
+
+#Nav2 .login {
+  color: rgb(255, 140, 0)41, 6);
+  background: rgb(51, 58, 65);
+  font-size: 18px;
+  padding: 5px 35px 5px 35px;
+  margin-left: 15px;
+  margin-right: 18px;
+  border-radius: 5px;
+}
+
+#Nav2 .login:hover {
+  color: red;
+  transition: color 0.5s;
+}
+
+/* Nav 2 End */
+/***************************/
+/* Articles Section */
+.article-section {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.article-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.article-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+}
+
+.article-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.article-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.article-card a {
+  color: white;
+  background-color: #007bff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.article-card a:hover {
+  background-color: #0056b3;
+}
+
+/***************************/
+/* Call Us Start */
+
+#call-us {
+    background-image: url(../imgs/call.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  
+  #call-us .layer {
+    background-color: rgba(5, 5, 5, 0.562);
+    height: 500px;
+  }
+  
+  #call-us h1 {
+    text-align: center;
+    color: white;
+    padding: 90px 0px 30px 0px;
+  }
+  
+  #call-us h4 {
+    text-align: center;
+    color: white;
+    margin: 0px 0px 30px 0px;
+  }
+  
+  #call-us h3 {
+    text-align: center;
+    color: white;
+    margin: 10px 0px 30px 60px;
+    padding: 20px 10px 20px 0px;
+    border-radius: 50px;
+    width: 30%;
+    background-color: green;
+  }
+  
+  #call-us .whats {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #call-us .whats img {
+    display: inline-block;
+    position: absolute;
+  }
+  
+  #call-us .whats h3 {
+    display: inline-block;
+  }
+  
+  /* Call Us End */
+  /***************************/
+  
+  /***************************/
+  /* App Start */
+  
+  #app {
+    background-image: url(../imgs/BG-phone.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  
+  #app .info {
+    padding-top: 60px;
+  }
+  
+  #app .info h1 {
+    padding-bottom: 20px;
+  }
+  
+  #app .info h3 {
+    padding-bottom: 20px;
+    line-height: 1.5em;
+  }
+  
+  #app .info h4 {
+    padding-bottom: 20px;
+    margin-left: 30%;
+  }
+  
+  #app .app-screen {
+    padding-top: 50px;
+  }
+  /* App End */
+  /***************************/
+  
+  /***************************/
+  /* Footer Start */
+  
+  #footer {
+    background-color: rgb(51, 58, 65);
+    height: 320px;
+    color: white;
+  }
+  
+  #footer .foot-info {
+    padding-top: 40px;
+    width: 90%;
+  }
+  
+  #footer .foot-info p {
+    padding-top: 30px;
+  }
+  
+  #footer ul a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  #footer ul a li {
+    margin-bottom: 10px;
+  }
+  
+  #footer .menu a:hover {
+    color: rgb(213, 3, 1);
+  }
+  
+  #footer ul {
+    padding-top: 50px;
+    list-style: none;
+    text-align: center;
+  }
+  
+  #footer .options h5 {
+    color: rgb(213, 3, 1);
+    padding-bottom: 15px;
+  }
+  
+  #footer .options {
+    margin-left: 30px;
+    text-align: left;
+  }
+  
+  #footer .options img {
+    margin-bottom: 10px;
+  }
+  
+  #footer .options img:hover {
+    background-color: lightgray;
+    transition: background-color 0.8s;
+    border-radius: 5px;
+  }
+  /* Footer End */
+  /***************************/
+  
